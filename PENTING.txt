@@ -1,0 +1,39 @@
+Catatan error saat clone repo.
+1. ngga bisa pakai postgre harus mysql soalnya cara membuat indexnya beda
+2. nah pas aku coba run mysql di xampp error, cara solvednya :
+
+   https://www.devopsschool.com/blog/error-mysql-shutdown-unexpectedly/
+   
+   ingat !: data lama dah ku pindah ke data_old_ppdb
+
+3. git bash here (mau ditaurh mana projeknya)
+4. git clone https://github.com/gieart87/laravel7-larashop.git
+
+ikuti : https://www.youtube.com/watch?v=bzKt7A-apq8&ab_channel=IndoKoding
+
+5. ganti nama projectnya jadi camellia-blooms, kemudian cd camellia clooms
+6. composer install
+7. cp .env.example .env
+8. code .  kemudian atur nama database jadi camellia-blooms
+9. php artisan migrate
+10. php artisan db:seed terus yes
+11. 
+
+
+
+login admin 
+Here is your admin details to login:
+grimes.trevor@example.org
+Password is "password"
+
+
+
+
+
+LINK VIDEO TUTORIAL versi laravel 6
+https://youtube.com/playlist?list=PLcgY4YvE4BFDhGFueTyITZvW0j-bfUiIU
+ 
+LINK VIDEO TUTORIAL CLONE PROJECT
+link github yang di clone (github kita) :
+link tutorial : https://youtu.be/bzKt7A-apq8
+
