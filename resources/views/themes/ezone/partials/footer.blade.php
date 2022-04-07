@@ -4,9 +4,9 @@
         <div class="container-fluid">
             <div class="widget-wrapper">
                 <div class="footer-widget mb-30">
-                    <a href="#"><img src="{{ asset('themes/ezone/assets/img/logo/2.png') }}" alt=""></a>
+                    <a href="#"><img src="{{ asset('themes/ezone/assets/img/logo/logo-2.png') }}" alt=""></a>
                     <div class="footer-about-2">
-                        <p>There are many variations of passages of Lorem Ipsum <br>the majority have suffered alteration in some form, by <br> injected humour</p>
+                        <p>We helps you discover the best plants for your space, <br> delivers them to your door and helps you look <br> after them.</p>
                     </div>
                 </div>
                 <div class="footer-widget mb-30">
@@ -17,7 +17,7 @@
                                 <span>Address: </span>
                             </div>
                             <div class="footer-info-content3">
-                                <p>66 Sipu road Rampura Banasree <br>USA- 10800</p>
+                                <p>Camellia Blooms Jl. Teknik Elektro No.48 <br>Surabaya - 60111</p>
                             </div>
                         </div>
                         <div class="footer-address-furniture">
@@ -30,10 +30,10 @@
                         </div>
                         <div class="footer-address-furniture">
                             <div class="footer-info-icon3">
-                                <span>E-mail: </span>
+                                <span>Email: </span>
                             </div>
                             <div class="footer-info-content3">
-                                <p><a href="#"> email@domain.com</a> <br><a href="#"> domain@mail.info</a></p>
+                                <p><a href="#"> camellia@blooms.com</a> <br><a href="#"> contact@blooms.info</a></p>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="copyright-furniture">
-                        <p>Copyright © <a href="https://hastech.company/">HasTech</a> 2018 . All Right Reserved.</p>
+                        <p>Copyright © <a href="">Camellia Blooms</a> 2022 . All Right Reserved.</p>
                     </div>
                 </div>
             </div>

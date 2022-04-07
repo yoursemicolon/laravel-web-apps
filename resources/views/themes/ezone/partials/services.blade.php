@@ -4,29 +4,29 @@
         <div class="services-wrapper">
             <div class="single-services mb-40">
                 <div class="services-img">
-                    <img src="{{ asset('themes/ezone/assets/img/icon-img/26.png') }}" alt="">
-                </div>
-                <div class="services-content">
-                    <h4>Free Shippig</h4>
-                    <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
-                </div>
-            </div>
-            <div class="single-services mb-40">
-                <div class="services-img">
-                    <img src="{{ asset('themes/ezone/assets/img/icon-img/27.png') }}" alt="">
+                    <img src="{{ asset('themes/ezone/assets/img/icon-img/receptionist.png') }}" alt="" width="140">
                 </div>
                 <div class="services-content">
                     <h4>24/7 Support</h4>
-                    <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                    <p>We provide high-quality services with personal assistance through our 24/7 service.</p>
                 </div>
             </div>
             <div class="single-services mb-40">
                 <div class="services-img">
-                    <img src="{{ asset('themes/ezone/assets/img/icon-img/28.png') }}" alt="">
+                    <img src="{{ asset('themes/ezone/assets/img/icon-img/payment.png') }}" alt="" width="140">
                 </div>
                 <div class="services-content">
                     <h4>Secure Payments</h4>
-                    <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                    <p>We provide a safer, faster, more secure way to pay online. </p>
+                </div>
+            </div>
+            <div class="single-services mb-40">
+                <div class="services-img">
+                    <img src="{{ asset('themes/ezone/assets/img/icon-img/tracking.png') }}" alt="" width="140">
+                </div>
+                <div class="services-content">
+                    <h4>Free Shipping</h4>
+                    <p>We will deliver your order using our chosen effective but cost-efficient service.</p>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@
 							<div class="furniture-content fadeinup-animated">
 								<h2 class="animated">{!! $slide->title !!}</h2>
 								<p class="animated">{{ $slide->body }}</p>
-								<a class="furniture-slider-btn btn-hover animated" href="{{ $slide->url }}">Go</a>
+								<a class="furniture-slider-btn btn-hover animated" href="/products">Shop Now</a>
 							</div>
 						</div>
 					</div>

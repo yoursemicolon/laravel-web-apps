@@ -5,14 +5,14 @@
 			<div class="header-bottom-wrapper">
 				<div class="logo-2 furniture-logo ptb-30">
 					<a href="/">
-						<img src="{{ asset('themes/ezone/assets/img/logo/2.png') }}" alt="">
+						<img src="{{ asset('themes/ezone/assets/img/logo/logo-2.png') }}" alt="" width="300">
 					</a>
 				</div>
 				<div class="menu-style-2 furniture-menu menu-hover">
 					<nav>
 						<ul>
-							<li><a href="/">home</a>
-								<ul class="single-dropdown">
+							<li><a href="/">Home</a>
+								{{-- <ul class="single-dropdown">
 									<li><a href="index.html">Fashion</a></li>
 									<li><a href="index-fashion-2.html">Fashion style 2</a></li>
 									<li><a href="index-fruits.html">fruits</a></li>
@@ -24,10 +24,10 @@
 									<li><a href="index-handicraft.html">handicraft</a></li>
 									<li><a target="_blank" href="index-smart-watch.html">smart watch</a></li>
 									<li><a href="index-sports.html">sports</a></li>
-								</ul>
+								</ul> --}}
 							</li>
-							<li><a href="#">pages</a>
-								<ul class="single-dropdown">
+							<li><a href="/products">Catalog</a>
+								{{-- <ul class="single-dropdown">
 									<li><a href="about-us.html">about us</a></li>
 									<li><a href="menu-list.html">menu list</a></li>
 									<li><a href="login.html">login</a></li>
@@ -36,13 +36,13 @@
 									<li><a href="checkout.html">checkout</a></li>
 									<li><a href="wishlist.html">wishlist</a></li>
 									<li><a href="contact.html">contact</a></li>
-								</ul>
+								</ul> --}}
 							</li>
-							<li><a href="{{ url('products') }}">shop</a>
+							<li><a href="/carts">Cart</a>
 								<div class="category-menu-dropdown shop-menu">
 									<div class="category-dropdown-style category-common2 mb-30">
 										<h4 class="categories-subtitle"> shop layout</h4>
-										<ul>
+										{{-- <ul>
 											<li><a href="shop-grid-2-col.html"> grid 2 column</a></li>
 											<li><a href="shop-grid-3-col.html"> grid 3 column</a></li>
 											<li><a href="shop.html">grid 4 column</a></li>
@@ -52,9 +52,9 @@
 											<li><a href="shop-list-box.html">list box style</a></li>
 											<li><a href="cart.html">shopping cart</a></li>
 											<li><a href="wishlist.html">wishlist</a></li>
-										</ul>
+										</ul> --}}
 									</div>
-									<div class="category-dropdown-style category-common2 mb-30">
+									{{-- <div class="category-dropdown-style category-common2 mb-30">
 										<h4 class="categories-subtitle"> product details</h4>
 										<ul>
 											<li><a href="product-details.html">tab style 1</a></li>
@@ -84,7 +84,7 @@
 									<li><a href="blog-details-sidebar.html">blog details 2</a></li>
 								</ul>
 							</li>
-							<li><a href="contact.html">contact</a></li>
+							<li><a href="contact.html">contact</a></li> --}}
 						</ul>
 					</nav>
 				</div>
@@ -168,7 +168,7 @@
 							<li>Get Access: <a href="{{ url('login') }}">Login</a></li>
 							<li><a href="{{ url('register') }}">Register</a></li>
 						@else
-							<li>Hello: <a href="{{ url('profile') }}">{{ Auth::user()->first_name }}</a></li>
+							<li>Hello: <a href="#">{{ Auth::user()->first_name }}</a></li>
 							<a href="{{ route('logout') }}"
 								onclick="event.preventDefault();
 											document.getElementById('logout-form').submit();">

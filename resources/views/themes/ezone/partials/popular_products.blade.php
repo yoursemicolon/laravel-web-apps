@@ -3,8 +3,8 @@
 	<div class="popular-product-area wrapper-padding-3 pt-115 pb-115">
 		<div class="container-fluid">
 			<div class="section-title-6 text-center mb-50">
-				<h2>Popular Product</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+				<h2>Popular Products</h2>
+				<h4>Take a look on our best-selling products!</h4>
 			</div>
 			<div class="product-style">
 				<div class="popular-product-active owl-carousel">
